@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct LoginUIApp: App {
+    
+    let authState = AuthUser()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
